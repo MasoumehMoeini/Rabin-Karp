@@ -1,0 +1,26 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  E:\doktora-thesis2\string matching\string_new\crk-cuda-c++\crk-cuda-c++>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "E:\doktora-thesis2\string matching\string_new\crk-cuda-c++\crk-cuda-c++\kernel.cu" 
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(33): warning : variable "j" was declared but never referenced
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(33): warning : variable "i" was declared but never referenced
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(75): warning : unrecognized character escape sequence
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(90): warning : unrecognized character escape sequence
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(64): warning : variable "number" was declared but never referenced
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(65): warning : variable "j" was declared but never referenced
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(65): warning : variable "index" was declared but never referenced
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(33): warning : variable "j" was declared but never referenced
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(33): warning : variable "i" was declared but never referenced
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(75): warning : unrecognized character escape sequence
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(90): warning : unrecognized character escape sequence
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(64): warning : variable "number" was declared but never referenced
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(65): warning : variable "j" was declared but never referenced
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(65): warning : variable "index" was declared but never referenced
+  kernel.cu
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(65): warning C4101: 'index' : unreferenced local variable
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(64): warning C4101: 'number' : unreferenced local variable
+E:/doktora-thesis2/string matching/string_new/crk-cuda-c++/crk-cuda-c++/kernel.cu(65): warning C4101: 'j' : unreferenced local variable
+  crk-cuda-c++.vcxproj -> E:\doktora-thesis2\string matching\string_new\crk-cuda-c++\Debug\crk-cuda-c++.exe
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "E:\doktora-thesis2\string matching\string_new\crk-cuda-c++\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
